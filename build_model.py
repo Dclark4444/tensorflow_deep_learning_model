@@ -3,7 +3,7 @@ import tensorflow, os, cv2, imghdr
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Conv2D, MaxPooling2D, Dense, Flatten, Dropout
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 #Controls use of GPU
 gpus = tensorflow.config.experimental.list_physical_devices("GPU")
